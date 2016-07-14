@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "PageActionJQ.js",
+  "sourceRoot": "",
+  "sources": [
+    "PageActionJQ.coffee"
+  ],
+  "names": [],
+  "mappings": ";;AAAA;;;;AAAA;AAAA,MAAA;;;EAGM,MAAM,CAAC;;;IAEE,sBAAC,UAAD,EAAc,aAAd;MAAC,IAAC,CAAA,aAAD;MAAa,IAAC,CAAA,gBAAD;IAAd;;;AAEb;;;;2BAIA,UAAA,GAAa,SAAA,GAAA;;2BAEb,aAAA,GAAgB,SAAC,GAAD,GAAA;;2BAIhB,gBAAA,GAAmB,SAAA;aACjB,IAAC,CAAA,UAAD,CAAA;IADiB;;2BAGnB,UAAA,GAAa,SAAA;aACX,IAAC,CAAA,aAAD,CAAe,IAAC,CAAA,UAAD,CAAA,CAAf;IADW;;;;KAjBmB;AAHlC"
+}
