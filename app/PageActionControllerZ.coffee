@@ -9,7 +9,7 @@ class window.PageActionControllerZ extends PageActionController
 
 
   constructor : ->
-    @parallelCount = 1  
+    @parallelCount = 1
     super()
 
   ###
@@ -17,6 +17,8 @@ class window.PageActionControllerZ extends PageActionController
 ###
 
   doAction : ->
+
+    me = this
 
     async.mapLimit(@pageActions,@parallelCount,
       (ele, callback) ->
@@ -37,9 +39,9 @@ class window.PageActionControllerZ extends PageActionController
     ,
       (err, result) ->
         if err
-          onError(err)
+          me.onError(err)
           return
 
-        onFinished(result)
+        me.onFinished(result)
 
     )
