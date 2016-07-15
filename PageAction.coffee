@@ -6,7 +6,7 @@ class window.PageAction
   getFireCondition : ->
     true
 
-  delayTime : 500
+  delayTime : 500 
 
 
 

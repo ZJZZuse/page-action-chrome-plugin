@@ -5,7 +5,7 @@ window.myCommonToolsZ =
       if condionF()
 
         if once
-          clearInterval(id)
+          clearInterval(id) 
 
         setTimeout(->
           action()

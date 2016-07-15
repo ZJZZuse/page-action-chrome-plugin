@@ -11,7 +11,7 @@ class window.PageActionJQ extends PageAction
 
   getElement : ->
 
-  fireActionCus : (ele) ->
+  fireActionCus : (ele) -> 
     
 
 

@@ -4,7 +4,7 @@ window.myCommonUITools =
 
     btnClass = 'positionButtonMeZ'
 
-    button = "<button class='#{btnClass}'>#{text}</button>"
+    button = "<button class='#{btnClass}'>#{text}</button>" 
 
     getPosition().prepend(button);
 
