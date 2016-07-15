@@ -9,9 +9,6 @@ class window.PageAction
   delayTime : 500 
 
 
-
-
-
 class window.PageActionController
 
   constructor : ->

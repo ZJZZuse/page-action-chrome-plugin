@@ -9,7 +9,7 @@ class window.PageActionControllerZ extends PageActionController
 
 
   constructor : ->
-    @parallelCount = 1 
+    @parallelCount = 1  
     super()
 
   ###
